@@ -164,7 +164,7 @@ FAERS-Infliximab-Inflectra-Analysis/
 └── 04_outcomes_signals.png
 
 ## 👤 Author
-**[Nick Iver Majaw]**
+**[Dr.Nick Iver Majaw]**
 - PharmD Graduate
 - Power BI Certified
 - Python Data Analytics
