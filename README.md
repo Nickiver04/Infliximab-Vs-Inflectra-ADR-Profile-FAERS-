@@ -5,7 +5,7 @@
 ![Data Source](https://img.shields.io/badge/Data-FDA%20AEMS-red)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 
-## 📋 Project Overview
+##  Project Overview
 A real-world pharmacovigilance analysis comparing the adverse event profile of 
 Infliximab (Remicade) — the originator biologic — with its biosimilar Inflectra, 
 using data from the FDA Adverse Event Monitoring System (AEMS), formerly known as FAERS.
@@ -15,7 +15,7 @@ This project demonstrates end-to-end data analytics skills combining:
 - **Power BI** for interactive dashboard development
 - **PharmD domain knowledge** for clinical interpretation of findings
 
- ## 🎯 Objectives
+ ##  Objectives
 - Compare adverse drug reaction (ADR) profiles between Infliximab and Inflectra
 - Perform disproportionality analysis using Reporting Odds Ratio (ROR) and 
   Proportional Reporting Ratio (PRR)
@@ -23,7 +23,7 @@ This project demonstrates end-to-end data analytics skills combining:
 - Assess outcome severity and demographic characteristics
 - Evaluate biosimilar equivalence from a real-world safety perspective
 
- ## 📊 Data Source
+ ##  Data Source
 **FDA Adverse Event Monitoring System (AEMS)**
 - Time Period: Q4 2025 (October–December 2025) and Q1 2026 (January–March 2026)
 - Format: ASCII quarterly data files
@@ -33,7 +33,7 @@ This project demonstrates end-to-end data analytics skills combining:
 > Note: Raw data files are not included in this repository due to size constraints.
 > Please download directly from the FDA website using the link above.
 
-## 🔬 Methodology
+##  Methodology
 
 ### Data Pipeline (Python)
 
@@ -75,7 +75,7 @@ This project demonstrates end-to-end data analytics skills combining:
 - Significance criteria: A ≥ 3 AND ROR lower 95% CI > 1
 - Significant signals detected: 676 (Infliximab) | 186 (Inflectra)
 
-## 📈 Key Findings
+##  Key Findings
 
 ### Adverse Reaction Profile
 - ADR profiles are broadly similar between Infliximab and Inflectra
@@ -108,7 +108,7 @@ This project demonstrates end-to-end data analytics skills combining:
 - Significant demographic data missingness: Sex missing 72% (Infliximab) 
   and 97% (Inflectra)
 
-## 🏁 Conclusion
+##  Conclusion
 Inflectra demonstrates a broadly comparable safety profile to its reference 
 product Infliximab across adverse reaction types, signal patterns and outcome 
 severity. Key findings support biosimilar equivalence while highlighting the 
@@ -118,7 +118,7 @@ importance of:
 2. **Causality assessment** for disease-related signals (anal fissure, fistula)
 3. **Continued post-marketing surveillance** with expanded data collection
 
-## ⚠️ Limitations
+##  Limitations
 - FAERS captures reported events not confirmed ADRs — causality cannot be established
 - Entire FAERS database used as background comparator — restricted comparator 
   (same MOA drugs) would reduce confounding by indication
@@ -143,7 +143,7 @@ importance of:
 - Filled map visualization
 - Bookmark toggle buttons
   
-## 📁 Repository Structure
+##  Repository Structure
 FAERS-Infliximab-Inflectra-Analysis/
 │
 ├── README.md
@@ -163,18 +163,18 @@ FAERS-Infliximab-Inflectra-Analysis/
 ├── 03_demographics.png
 └── 04_outcomes_signals.png
 
-## 👤 Author
+##  Author
 **[Dr.Nick Iver Majaw]**
 - PharmD Graduate
 - Power BI Certified
 - Python Data Analytics
 
-📧 [nickivermajaw086@gmail.com]
-🔗 [www.linkedin.com/in/nick-iver-majaw]
+ [nickivermajaw086@gmail.com]
+ [www.linkedin.com/in/nick-iver-majaw]
 
 ---
 
-## 📚 References
+##  References
 
 1. FDA Adverse Event Monitoring System (AEMS): 
    https://www.fda.gov/drugs/surveillance/fda-adverse-event-monitoring-system-aems
